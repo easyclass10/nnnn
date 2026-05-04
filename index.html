@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>METAS 2026</title>
+<style>
+  
+    /* Reset básico */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: linear-gradient(135deg, #a8ff78 0%, #78ffd6 100%); /* Fondo moderno */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 20px;
+    }
+
+    /* Contenedor Principal (Tarjeta) */
+    .container {
+      background-color: #ffffff;
+      width: 100%;
+      max-width: 600px; /* Ancho máximo para que no se estire demasiado */
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      padding: 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #0056b3;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    /* Imagen de perfil */
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #a8ff78;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    /* Subtitulos */
+    h2 {
+      font-size: 1.2rem;
+      color: #333;
+      margin: 20px 0 15px 0;
+    }
+
+    /* Lista de Metas */
+    ol {
+      list-style: none; /* Quitamos los números por defecto para estilizarlos mejor */
+      padding: 0;
+      counter-reset: goal-counter; /* Iniciamos contador css */
+    }
+
+    li {
+      margin-bottom: 12px;
+      counter-increment: goal-counter;
+      position: relative;
+    }
+
+    /* Estilo de los botones/enlaces */
+    .btn {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      background-color: #f8f9fa;
+      color: #333;
+      padding: 15px 20px;
+      border-radius: 8px;
+      border-left: 5px solid #0056b3; /* Borde lateral azul */
+      transition: all 0.3s ease;
+      font-weight: 600;
+      text-align: left;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+      color: white;
+      transform: translateX(5px); /* Pequeño movimiento a la derecha */
+    }
+
+    /* Botón especial 'Otros' */
+    .btn-main {
+      background-color: #ffc107;
+      color: #000;
+      justify-content: center;
+      text-align: center;
+      border: none;
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+    .btn-main:hover {
+      background-color: #e0a800;
+      transform: scale(1.02);
+    }
+
+</style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>METAS 2026</h1>
+    </header>
+
+    <img src="cesar.jpg" alt="Foto de Cesar" class="profile-img" onerror="this.src='https://via.placeholder.com/150'"/>
+
+    <div>
+      <a class="btn btn-main" href="otros.html">📂 Otros</a>
+    </div>
+
+    <h2>A continuación 💯😊:</h2>
+
+    <ol>
+      <li><a class="btn" href="index1.html">✅ Persona de Excelencia</a></li>
+      <li><a class="btn" href="index2.html">✅ Personalidad Agradable</a></li>
+      <li><a class="btn" href="index3.html">✅ Tener nivel de Inglés B1</a></li>
+      <li><a class="btn" href="index4.html">✅ Buen Ingeniero Mecánico</a></li>
+      <li><a class="btn" href="index5.html">✅ Riqueza de $240.000.000</a></li>
+      <li><a class="btn" href="index6.html">✅ Crecer una empresa relacionada con la educación</a></li>
+      <li><a class="btn" href="index7.html">✅ Entrenar: correr 5 km a ritmo de 4:45 min/km en Quito</a></li>
+      <li><a class="btn" href="index8.html">✅ Emprender en otros negocios</a></li>
+      <li><a class="btn" href="index9.html">✅ Proyecto Tecnológico: Beneficioso y Rentable</a></li>
+      <li><a class="btn" href="index10.html">✅ Tener más de 100 contactos</a></li>
+      <li><a class="btn" href="index11.html">✅ Familia más unida y feliz</a></li>
+      <li><a class="btn" href="index12.html">✅ Crear empresa (Facility, Esc, Profeya, etc.)</a></li>
+      <li><a class="btn" href="index13.html">✅ Leer 3 libros</a></li>
+      <li><a class="btn" href="index14.html">✅ Tener 5 amigos verdaderos</a></li>
+      <li><a class="btn" href="index15.html">✅ 1h semanal de oración/meditación</a></li>
+      <li><a class="btn" href="index16.html">✅ Mujer propia para mí</a></li>
+      <li><a class="btn" href="index17.html">✅ Dar a conocer el libro "El Pais de la Pasiones" a 100 personas</a></li>
+      <li><a class="btn" href="index18.html">✅ Aprender mas sobre Inteligencia Artificial</a></li>
+      <li><a class="btn" href="index19.html">✅ Hacer mi fiesta de cumpleaños donde invite a mas de 20 personas para mostrar gratitud</a></li>
+      <li><a class="btn" href="index20.html">✅ Aumentar de peso y masa muscular</a></li>
+      <li><a class="btn" href="index21.html">✅ Hacer campaña a favor de Sergio Fajardo para la presidencia de colombia</a></li>
+      <li><a class="btn" href="index22.html">✅ Crear una marca personal exitosa</a></li>
+      <li><a class="btn" href="index23.html">✅ Crear el movimiento "Evolucionismo Cientifico"</a></li>
+    </ol>
+  </div>
+
+</body>
+</html>

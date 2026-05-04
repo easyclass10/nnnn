@@ -1,0 +1,29 @@
+
+    body{
+        font-family: Cooper Black;
+    }
+    #main-container{
+            padding-top: 200px;
+            text-align: center;
+        }
+        .btn{
+            border-radius: 3px;
+            display: inline-block;
+            padding: 20px 15px;
+        }
+        .btn-green{
+            color: white;
+            background-color: blue;
+        }
+        .btn-green:hover{
+            background-color: #008F39;
+        }
+        .btn-green:active{
+            background-color: red;
+        }
+  
+        .btn-materias{
+            color: black;
+            background-color: yellow;
+        }
+    
